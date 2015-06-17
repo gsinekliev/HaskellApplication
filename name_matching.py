@@ -1,4 +1,4 @@
-__author__ = 'Admin'
+__author__ = 'Georgi Sinekliev'
 
 import sys
 import re

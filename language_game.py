@@ -10,7 +10,7 @@ def check_word(characters, word):
         return False
 
     keys = [group[0] for group in groups]
-    if len(keys) != len(characters):
+    if len(keys) != len(characters):  # only compare if there are same number of keys
         return False
 
     return True
